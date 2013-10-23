@@ -49,6 +49,7 @@ var notamRequestGenerator = {
     //d.setUTCDate(parseInt(str.slice(4,6)));
     d.setUTCHours(parseInt(str.slice(6,8)));
     d.setUTCMinutes(parseInt(str.slice(8)));
+    d.setUTCSeconds(0);
     return d.toString();
 
   },
